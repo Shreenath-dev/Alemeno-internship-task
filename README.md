@@ -1,6 +1,8 @@
 # Credit System
 
-A Django-based credit management system with customer and loan management. Supports Docker deployment and importing data from Excel files.
+A Django-based credit management system with customer and loan management. Supports Docker deployment and importing data from Excel files. [Postman Collection link]("https://www.postman.com/shreenath-py-1057753/workspace/alemeno-assignment/collection/48302399-7f0f058a-3cc5-41be-9bf9-c608068a954a?action=share&creator=48302399")
+
+
 
 -----
 
@@ -8,8 +10,8 @@ A Django-based credit management system with customer and loan management. Suppo
 
 ```
 backend/
-├── credit_system/        # Django project
-├── loans/                # Django app (models: Customer, Loan)
+├── credit_system/        
+├── loans/                
 ├── scripts/
 │   └── import_excel.py   # Script to import Excel data
 ├── data/
